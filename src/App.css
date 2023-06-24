@@ -1,0 +1,40 @@
+body {
+  /* background-color: ; */
+}
+.calculator{
+  width: 400px;
+  margin: auto;
+ 
+}
+.values{
+  color: white;
+ text-align: right;
+ font-size: 20px;
+  padding-right: 10px;
+  height: 40px;
+  background-color: gray;
+}
+.result{
+  color: white;
+  text-align: right;
+  height: 60px;
+  background-color: black;
+}
+.grid_container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  /* padding: 20px; */
+}
+.grid_container >div{
+padding: 10px;
+border: 2px solid black;
+}
+.clear{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.res{
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
